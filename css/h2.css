@@ -1,0 +1,269 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.column {
+  padding: 0.75rem 0rem !important;
+}
+
+.hero.is-primary a.navbar-item:hover, .hero.is-primary a.navbar-item.is-active, .hero.is-primary .navbar-link:hover, .hero.is-primary .navbar-link.is-active {
+    background-color: transparent !important;
+    color: none !important;
+}
+
+section.first div.hero-body {
+  padding: 1rem 1.5rem !important;
+  border: 1px solid #DADADA !important;
+  box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.1);
+}
+
+.container{
+  max-width: 100% !important;
+}
+
+.navbar-item:hover {
+  background: #19212b !important;
+  color: none !important;
+}
+
+input.text-search {
+  width: 100%;
+  height: 40px;
+  border: none;
+}
+
+button.button-todos {
+  height: 40px;
+  background: #F3F3F3;
+  width: 80px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px 0px 0px 8px;
+}
+
+button.button-buscar {
+  height: 40px;
+  background: #FCBC70;
+  width: 30%;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px 8px 8px 0px;
+}
+
+button.button-buscar:hover {
+  background: #d29245;
+}
+
+button.button-todos:hover {
+  background: #d4d4d4;
+}
+
+section.header {
+  background: #232F3D;
+  padding: 15px;
+}
+
+.sub-title {
+font-size: 12px;
+color: #FFFFFF;
+}
+
+.div-logo a img{
+  width: 80%;
+}
+
+.logo2 {
+  margin: 0.3rem;
+}
+
+.cero {
+  position: absolute;
+  bottom: 35px;
+  left: 22px;
+}
+
+.div-logo {
+  margin: auto !important;
+  text-align: center !important;
+}
+
+.div-right-text {
+  text-align: center !important;
+  margin: auto !important;
+}
+
+.inline-block {
+  display: flex;
+  flex-flow: row;
+}
+
+.block {
+  display: flex;
+  flex-flow: column;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.transparent {
+  opacity: 0.2;
+}
+
+footer {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0px !important;
+  background: #222E3D !important;
+  color: #ffffff;
+}
+
+footer div.button-inicio {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+button.btn-inicio {
+  width: 100% !important;
+  height: 50px;
+  background: #374759;
+  color: #ffffff;
+  text-align: center;
+  border:none;
+  cursor: pointer;
+
+}
+
+div.hero div.hero-body div.container div.columns div.column ul li a {
+  color: #ffffff;
+}
+
+div.hero div.hero-body div.container div.columns div.column ul li a:hover {
+   color: #acacac;
+}
+
+.logo-amazon-footer {
+  width: 15%;
+}
+
+.hero-footer {
+  width: 95%;
+  max-width: 95%;
+  margin: auto;
+}
+
+
+section.aside-left div.hero-body div.columns div.column ul li{
+  font-size: 0.8rem;
+}
+
+section.aside-left div.hero-body div.columns div.column ul {
+  padding: 1rem 0rem;
+  width: 90%;
+  margin: auto;
+}
+
+section.aside-left div.hero-body div.columns div.column ul li a {
+  color:#6F6F6F;
+}
+
+.aside{
+  border-right: 1px solid #C0C0C0;
+}
+
+div.content-principal  {
+  width: 100% !important;
+}
+
+div.content-principal div.container div.columns {
+  margin: auto !important;
+  padding: 0.2rem;
+  width: 100%;
+}
+
+div.content-principal div.container div.columns div.column {
+  margin: 1rem !important;
+  padding: 0.7rem 0.2rem !important;
+  border-bottom: 1px solid #C0C0C0;
+}
+
+div.stars img {
+  width: 9%;
+}
+
+.background-green {
+  background: #2AD100 !important;
+}
+
+.menu-bottom {
+  text-align: center;
+}
+button.number-number {
+  padding: 0.7rem 1rem !important;
+  background: #F8F8F8;
+  border: 1px solid #DADADA;
+  cursor: pointer;
+  border-radius: 4px !important;
+}
+
+button.button-Siguiente {
+  border-radius: 4px;
+  padding: 0.6rem;
+  background: #F8F8F8;
+  border: 1px solid #DADADA;
+}
+
+.second-list li {
+  padding: 0.3rem 0.1rem;
+}
+
+.third-list li {
+  padding: 0.3rem 0.1rem;
+}
+
+.third-list li input {
+  border: 1px solid #C0C0C0;
+  border-radius: 4px;
+  padding: 5px;
+  width: 60px;
+}
+
+.third-list li button {
+  background: linear-gradient(360deg, #ECECEC 9.31%, #F9F9F9 100%);
+  border: 1px solid #A5A5A5;
+  border-radius: 4px;
+  padding: 5px;
+  width: 40px;
+}
+
+.four-list li {
+  padding: 0.3rem 0.1rem;
+}
+
+.four-list li button{
+  background: #F8F8F8;
+  border: 1px solid #DADADA;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.five-list li{
+  padding: 0.3rem 0.1rem;
+}
+
+
+
+.color-blue {
+  color: #0066C0 !important;
+  font-weight: bold;
+}
+
+.color-blue:hover {
+  color: color: #06579f !important;
+}

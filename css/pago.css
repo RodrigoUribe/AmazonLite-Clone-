@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Roboto !important;
+}
+
+.inline-block {
+  display: flex;
+  flex-flow: row;
+}
+
+nav.navbar div.navbar-menu div.navbar-start div.navbar-item a.navbar-item {
+  font-family: Roboto !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  color: #E2A301;
+}
+
+.dad {
+  width: 95%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.opacity {
+  opacity: 0.2;
+}
+
+.font-bold {
+  font-weight: bold !important;
+}
+
+.color-black {
+  color: rgb(0, 0, 0) !important;
+}
+.text-left {
+  text-align: left !important;
+}
+
+.paypal {
+  background: linear-gradient(180deg, #E4EFF5 -5.43%, #D6EAF3 139.12%);
+  border: 1px solid #BAE7FD;
+  border-radius: 4px;
+  width: 98px;
+  padding: 0.1rem 1rem;
+}
+
+.pagar-tarjeta {
+  background: linear-gradient(360deg, #ECECEC 9.31%, #F9F9F9 100%);
+  border: 1px solid #A5A5A5;
+  border-radius: 4px;
+  padding: 0.2rem 1rem !important;
+  cursor: pointer;
+}
+
+.pagar-tarjeta:hover {
+  background: linear-gradient(360deg, #EFC25C -7.29%, #F8E7C1 100%);
+  border: 1px solid #E2A301;
+  border-radius: 4px;
+}
+
+.pagar-tarjeta:active {
+  background: linear-gradient(360deg, #EFC25C -7.29%, #F8E7C1 100%);
+  border: 1px solid #E2A301;
+  border-radius: 4px;
+  transform: scale(0.7);
+}
+
+.pagar-tarjeta div.inline-block div {
+  margin: 5px;
+  width: auto;
+}
+
+.mb-4{
+  margin: 0rem 0.4rem;
+}
+
+.p-4 {
+  padding: 0.8rem 0rem;
+}
+
+.border-black-op {
+  border-top: 1px solid #E0E0E0;
+}
+
+.gray-4 {
+  background: #F2F2F2;
+  border: 1px solid #BDBDBD;
+  border-radius: 4px;
+}
+
+.gray-5 {
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+.gray-5 .gray-4 div {
+  padding: 0.2rem 0.4rem;
+}
+
+.columns:not(:last-child) {
+    margin-bottom: calc(3.5rem - 0.75rem)!important;
+}
+
+footer {
+  width: 100%;
+}
+
+footer div.hero div.hero-body .columns {
+  width: 80% !important;
+  margin: auto;
+  text-align: center;
+}
+
+footer div.hero div.hero-body {
+  background: linear-gradient(180deg, #F2F2F2 0%, rgba(255, 255, 255, 0) 50.49%);
+}
+
+section.pagar-ahora div.hero-body div.inline-block div input {
+  width: 100%;
+  border: 1px solid #C0C0C0;
+  border-radius: 4px;
+  padding: 0.5rem 0rem;
+}
+
+section.pagar-ahora div.hero-body div.inline-block div button {
+  background: linear-gradient(360deg, #ECECEC 9.31%, #F9F9F9 100%);
+  border: 1px solid #A5A5A5;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+section.pagar-ahora div.hero-body div.inline-block div {
+  margin: 0.3rem;
+}
+
+.btn-pagar-ahora {
+  background: linear-gradient(360deg, #EFC25C 9.31%, #F8E7C1 100%) !important;
+  border: 1px solid #9C7E37 !important;
+  border-radius: 4px !important;
+  padding: 0.7rem 0.7rem;
+}
+
+section.pagar-ahora div.hero-body #m-auto {
+  display: none;
+}

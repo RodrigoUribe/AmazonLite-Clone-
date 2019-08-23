@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Roboto !important;
+}
+
+.inline-block {
+  display: flex !important;
+  flex-flow: row;
+}
+
+nav.navbar div.navbar-menu div.navbar-start div.navbar-item a.navbar-item {
+  font-family: Roboto !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  color: #E2A301;
+}
+
+section.formulario div.hero-body div.columns div.column div input {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #C0C0C0;
+  border-radius: 4px;
+
+}
+
+section.formulario div.hero-body div.columns .instrucciones div {
+  width: 100%;
+  border: 1px solid #C0C0C0;
+  border-radius: 4px;
+}
+
+.otra-direccion {
+  height: 88px !important;
+}
+
+section.formulario div.hero-body {
+  background: rgba(230, 230, 230, 0.2);
+}
+
+section.formulario div.hero-body div.columns div.column div {
+  padding: 0.8rem 0rem !important;
+}
+
+.font-bold {
+  font-weight: bold !important;
+}
+
+.color-black {
+  color: rgb(0, 0, 0) !important;
+}
+
+footer {
+  width: 100%;
+}
+
+footer div.hero div.hero-body .columns {
+  width: 80% !important;
+  margin: auto;
+  text-align: center;
+}
+
+footer div.hero div.hero-body {
+  background: linear-gradient(180deg, #F2F2F2 0%, rgba(255, 255, 255, 0) 50.49%);
+}
+
+.entregar {
+  background: linear-gradient(360deg, #EFC25C 9.31%, #F8E7C1 100%);
+  border: 1px solid #9C7E37;
+  border-radius: 4px;
+  padding: 0.7rem 2.5rem;
+  cursor: pointer;
+}
+
+.entregar:hover {
+  background: linear-gradient(360deg, #FF9611 9.31%, #FEB65B 100%)!important;
+}
+
+.ee {
+  background: linear-gradient(360deg, #ECECEC 9.31%, #F9F9F9 100%);
+  border: 1px solid #A5A5A5;
+  border-radius: 4px;
+  padding:0.2rem 2rem;
+  cursor: pointer;
+}
+
+div.inline-block button {
+  margin: 0.5rem 0.2rem;
+}
+
+.dad {
+  width: 95%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.opacity {
+  opacity: 0.2;
+}

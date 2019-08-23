@@ -1,0 +1,382 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.column {
+  padding: 0.75rem 0rem !important;
+}
+
+.hero.is-primary a.navbar-item:hover, .hero.is-primary a.navbar-item.is-active, .hero.is-primary .navbar-link:hover, .hero.is-primary .navbar-link.is-active {
+    background-color: transparent !important;
+    color: none !important;
+}
+
+section.second div.hero-body div.second-line{
+  border-top: 1px solid #DADADA !important;
+}
+
+.container{
+  max-width: 100% !important;
+}
+
+.navbar-item:hover {
+  background: #19212b !important;
+  color: none !important;
+}
+
+input.text-search {
+  width: 100%;
+  height: 40px;
+  border: none;
+}
+
+button.button-todos {
+  height: 40px;
+  background: #F3F3F3;
+  width: 80px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.div-logo img {
+  width: 80%;
+}
+
+button.button-buscar {
+  height: 40px;
+  background: #FCBC70;
+  width: 30%;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px 8px 8px 0px;
+}
+
+button.button-buscar:hover {
+  background: #d29245;
+}
+
+button.button-todos:hover {
+  background: #d4d4d4;
+}
+
+section.header {
+  background: #232F3D;
+  padding: 15px;
+}
+
+.sub-title {
+font-size: 12px;
+color: #FFFFFF;
+}
+
+.narvar-item .sub-title:hover {
+  background: transparent !important;
+}
+
+.cero {
+  position: absolute;
+  bottom: 35px;
+  left: 22px;
+}
+
+.div-logo {
+  margin: auto !important;
+  text-align: center !important;
+}
+
+.div-right-text {
+  text-align: center !important;
+  margin: auto !important;
+}
+
+.inline-block {
+  display: flex;
+  flex-flow: row;
+}
+
+.block {
+  display: flex;
+  flex-flow: column;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.transparent {
+  opacity: 0.5;
+}
+
+footer {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0px !important;
+  background: #222E3D !important;
+  color: #ffffff;
+}
+
+footer div.button-inicio {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+button.btn-inicio {
+  width: 100% !important;
+  height: 50px;
+  background: #374759;
+  color: #ffffff;
+  text-align: center;
+  border:none;
+  cursor: pointer;
+
+}
+
+div.hero div.hero-body div.container div.columns div.column ul li a {
+  color: #ffffff;
+}
+
+div.hero div.hero-body div.container div.columns div.column ul li a:hover {
+   color: #acacac;
+}
+
+.logo-amazon-footer {
+  width: 15%;
+}
+
+.hero-footer {
+  width: 95%;
+  max-width: 95%;
+  margin: auto;
+}
+
+.background-green {
+  background: #2AD100 !important;
+}
+
+.menu-bottom {
+  text-align: center;
+}
+
+.color-blue {
+  color: #0066C0 !important;
+  font-weight: bold;
+}
+
+.color-blue:hover {
+  color: color: #06579f !important;
+}
+
+.color-black {
+  color: #000000;
+}
+.color-green {
+  color: #209F00;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-aside {
+  width: 100%;
+}
+
+.img-place {
+  height: 18px !important;
+  width: 16px !important;
+}
+
+div.last-div{
+  padding: 1rem !important;
+  background: #EAEDED;
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+}
+
+.background-yellow-bold {
+  background: linear-gradient(360deg, #EFC25C 9.31%, #F8E7C1 100%);
+  border: 1px solid #9C7E37;
+  border-radius: 4px;
+}
+
+section.firt-line div.hero-body div.columns {
+}
+
+section.firt-line div.hero-body div.columns div.column {
+  padding: 0.3rem 1rem !important;
+}
+
+section.firt-line div.hero-body div.columns div.column div img {
+  width: 3%;
+}
+
+section.firt-line div.hero-body div.columns div.column div div{
+  padding: 0.5rem 0rem;
+}
+
+section.firt-line div.hero-body div.columns div.column div div#border-1 {
+  border-bottom: 1px solid #DADADA;
+}
+
+.twin {
+  background: #FFE9D0;
+  border: 1px solid #EBA076 !important;
+}
+
+section.firt-line div.hero-body div.columns div.column div div input{
+  padding: 0.5rem 0.5rem;
+  border: 1px solid #DADADA;
+}
+
+section.firt-line div.hero-body div.columns div.column div div div img {
+  width: 8%;
+}
+
+.content {
+  background: #FFFFFF;
+  border: 1px solid #DADADA;
+  border-radius: 4px;
+}
+
+.button-aside-add {
+  background: linear-gradient(360deg, #ECECEC 9.31%, #F9F9F9 100%);
+  border: 1px solid #A5A5A5;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  padding: 1rem;
+  width: 100%;
+}
+
+.button-aside-amount {
+  background: linear-gradient(360deg, #ECECEC 9.31%, #F9F9F9 100%);
+  border: 1px solid #A5A5A5;
+  border-radius: 4px;
+  padding: 0.3rem !important;
+  font-weight: bold;
+  width: 70%;
+}
+
+.button-aside-amount img {
+  width: 55px;
+  height: 5px;
+}
+
+.buttons-aside:hover {
+  background: linear-gradient(360deg, #FF9611 9.31%, #FEB65B 100%);
+  border: 1px solid #9C7E37;
+  border-radius: 4px;
+}
+
+.mb-4 {
+  padding: 0rem 1rem !important;
+}
+
+.buttons-aside {
+  width: 100%;
+  margin: auto;
+  padding: 0.5rem;
+  margin: 0.4rem 0rem;
+}
+
+.img-buttons {
+  width: 0.8rem !important;
+  height: 0.7rem !important;
+}
+
+.img-button {
+  width: 30px;
+  border-radius: 3px;
+  background: black;
+}
+
+.color-orange {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 29px;
+  color: #E18C5C;
+}
+
+.second div.hero-body {
+  width: 100% !important;
+  margin: auto;
+}
+
+.second div.hero-body div.columns div.column{
+  margin: 0.5rem;
+
+}
+
+.second div.hero-body div.second-columns .column {
+  background: #FFFFFF;
+  border: 1px solid #DADADA;
+  border-radius: 8px;
+  padding: 1rem 1rem !important;
+}
+
+.second div.hero-body div.second-columns .column img {
+  width: 60%;
+}
+
+.second div.hero-body div.second-columns .column .star {
+  width: 10%;
+}
+
+.box-img {
+  text-align: center;
+}
+
+.buscar {
+  border: 1px solid #B0B0B0;
+  border-radius: 8px;
+}
+
+.buscar input {
+  border: none;
+  padding: 5px;
+}
+
+.buscar img {
+  padding: 4px 10px;
+}
+
+section.third div.hero-body {
+  width: 95% !important;
+  margin: auto;
+}
+
+section.third div.hero-body {
+  border-top: 1px solid #DADADA;
+}
+
+section.third div.hero-body .columns .column table {
+  margin: auto;
+}
+
+section.third div.hero-body .columns .column table tr td {
+  width: 50%;
+  padding: 10px 10px;
+  font-size: 12px;
+  border: 1px solid #CFCFCF;
+}
+.border-top {
+  border-top: 1px solid #DADADA;
+  padding: 10px 0px;
+}
+
+.background-gray {
+  background: #EAEDED;
+}
+
+.no-border-bottom {
+  border-bottom: none !important;
+}

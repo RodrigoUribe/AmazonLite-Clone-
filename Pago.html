@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Amazon</title>
+      <link rel="stylesheet" href="css/pago.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css">
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  </head>
+  <body>
+    <div class="dad">
+          <nav class="navbar is-transparent">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="#">
+                <img src="img/Confirmar/1.png" alt="" width="112" height="28">
+              </a>
+            <div id="navbarExampleTransparentExample" class="navbar-menu">
+              <div class="navbar-start">
+                <div class="navbar-item">
+                  <a class="navbar-item" >
+                    INICIAR SESION
+                  </a>
+                  <a class="navbar-item">
+                    ENVIO Y PAGO
+                  </a>
+                  <a class="navbar-item opacity color-black">
+                    OPCION DE REGALO
+                  </a>
+                  <a class="navbar-item opacity color-black">
+                    FINALIZAR PEDIDO
+                  </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </nav>
+
+        <section class="hero">
+          <div class="hero-body">
+            <div class="columns">
+              <div class="column is-10">
+                <div class="gray-5">
+                  <div class="gray-4 inline-block">
+                    <div>
+                      <img src="img/direccion2/info.png" alt="">
+                    </div>
+                    <div>
+                      <h1>
+                         Especifica a continuación cómo te gusta realizar el pago y lo guardaremos como opción.
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column">
+                <h1 class="font-bold is-size-4 color-black">Selecciona un método de pago</h1>
+              </div>
+            </div>
+            <div class="columns border-black-op">
+              <div class="column">
+                <div class="inline-block">
+                  <div>
+                      <h1 class="font-bold is-size-4 color-black">Selecciona uno de nuestros metodos de pago</h1>
+                  </div>
+                  <div class="mb-4">
+                   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="EH9MV763JVN9W">
+<input type="image" src="https://www.paypalobjects.com/es_ES/ES/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma rápida y segura de pagar en Internet.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
+
+                  </div>
+                  <div class="mb-4">
+                    <button type="button" class="pagar-tarjeta" id="pagartarjeta2">
+                         <div class="inline-block">
+                           <div>
+                             <img src="img/direccion2/card.png" alt="">
+                           </div>
+                           <div>
+                             <h1>
+                                Pagar con tarjeta
+                             </h1>
+                           </div>
+                         </div>
+                    </button>
+                  </div>
+                </div>
+                <h1 class="is-size-7"> Amazon acepta la mayoría de tarjetas de crédito o débito y plataformas de pago</h1>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="hero pagar-ahora">
+          <div class="hero-body" id="mostrarpago">
+            <div class="container" id="m-auto">
+                <h2 class="is-size-7 font-bold">Nombre de titular en la tarjeta</h2>
+                <br>
+                <form id="card-form" action="">
+                    <div class="p-4">
+                      <input type="hidden" name="stripeToken" value="tok_1EwyRXBvTVUdv5mz935w4NDh">
+                      <div id="card-element"></div>
+                    </div>
+                    <div class="p-4">
+                      <button type="submit" class="btn-pagar-ahora font-bold">
+                          Pagar $20.99
+                      </button>
+                    </div>
+                </form>
+                <div id="errors"></div>
+            </div>
+          </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="hero">
+        <div class="hero-body">
+          <div class="columns">
+            <div class="column">
+              <a href="#" class="">condiciones de uso</a>
+            </div>
+            <div class="column">
+              <a href="#" class="">aviso de privacidad</a>
+            </div>
+            <div class="column">
+              <a href="#" class="">Ayuda</a>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column is-full">
+                      <label class="">© 1996-2019, Amazon.com, Inc. o sus filiales</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="js/stripe.js"></script>
+  </body>
+</html>
